@@ -3,7 +3,7 @@ import json
 import os
 
 list_of_students = []
-path_to_dir = "C:/Users/Andreea/PycharmProjects/SDA/Algoritmi_si_structuri_de_date/2023_03_18/Student"
+path_to_dir = input("Enter path: ")
 json_path = f"{path_to_dir}/Json files"
 csv_path = f"{path_to_dir}/CSV files"
 
